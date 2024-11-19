@@ -1,7 +1,23 @@
 import FooterComponent from "@/components/footer";
 import HeaderComponent from "@/components/header";
+import localFont from "next/font/local";
 import { Metadata } from "next/types";
+import "./globalicons.css";
 import "./globals.css";
+
+const myPrimaryFont = localFont({
+  src: "../public/fonts/Satoshi-Variable.ttf",
+  variable: "--font-satoshi",
+});
+const mySecondaryFont = localFont({
+  src: "../public/fonts/Gambetta-Variable.ttf",
+  variable: "--font-gambetta",
+});
+
+const myTertiaryFont = localFont({
+  src: "../public/fonts/Chillax-Variable.ttf",
+  variable: "--font-chillax",
+});
 
 export const metadata: Metadata = {
   title: "Bruno Truong",
@@ -15,7 +31,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body
+        className={
+          (myPrimaryFont.variable,
+          mySecondaryFont.variable,
+          myTertiaryFont.variable)
+        }
+      >
         <div>
           <HeaderComponent />
           {children}

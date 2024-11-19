@@ -41,6 +41,9 @@ dependencies:
   '@sanity/vision':
     specifier: ^3.36.4
     version: 3.37.2(@babel/runtime@7.23.8)(@codemirror/lint@6.5.0)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
+  '@uidotdev/usehooks':
+    specifier: ^2.4.1
+    version: 2.4.1(react-dom@18.2.0)(react@18.2.0)
   classnames:
     specifier: ^2.5.1
     version: 2.5.1
@@ -3211,6 +3214,17 @@ packages:
       '@typescript-eslint/types': 6.19.0
       eslint-visitor-keys: 3.4.3
     dev: true
+
+  /@uidotdev/usehooks@2.4.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-1I+RwWyS+kdv3Mv0Vmc+p0dPYH0DTRAo04HLyXReYBL9AeseDWUJyi4THuksBJcu9F0Pih69Ak150VDnqbVnXg==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /@uiw/codemirror-extensions-basic-setup@4.21.25(@codemirror/autocomplete@6.16.0)(@codemirror/commands@6.3.3)(@codemirror/language@6.10.1)(@codemirror/lint@6.5.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/view@6.26.3):
     resolution: {integrity: sha512-eeUKlmEE8aSoSgelS8OR2elcPGntpRo669XinAqPCLa0eKorT2B0d3ts+AE+njAeGk744tiyAEbHb2n+6OQmJw==}

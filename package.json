@@ -23,6 +23,7 @@
     "@sanity/image-url": "^1.0.2",
     "@sanity/react-loader": "^1.9.6",
     "@sanity/vision": "^3.36.4",
+    "@uidotdev/usehooks": "^2.4.1",
     "classnames": "^2.5.1",
     "clsx": "^2.1.0",
     "gsap": "^3.12.5",

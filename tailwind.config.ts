@@ -12,7 +12,11 @@ const config: Config = {
     extend: {
       backgroundImage: {},
       gridTemplateColumns: {},
-      fontFamily: {},
+      fontFamily: {
+        primary: "var(--font-satoshi)",
+        secondary: "var(--font-gambetta)",
+        tertiary: "var(--font-chillax)",
+      },
       inset: {},
       padding: {},
       height: {},
@@ -29,7 +33,11 @@ const config: Config = {
         "5xl": "clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem)",
         "6xl": "clamp(4.77rem, 7.48vw + 2.9rem, 8.88rem)",
       },
-      colors: {},
+      colors: {
+        brand: {
+          primary: "#EDD6B6",
+        },
+      },
       width: {},
       gap: {},
     },
